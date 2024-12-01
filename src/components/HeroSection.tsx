@@ -1,5 +1,6 @@
 import React from 'react';
 import CustomLink from './CustomLink';
+import Image from 'next/image';
 
 const HeroSection = () => {
   return (
@@ -14,7 +15,7 @@ const HeroSection = () => {
       </div>
 
       <div className='hidden md:flex w-full h-full relative overflow-hidden'>
-        <img src="/profile-1.png" alt="profile image" width={600} height={600} className='object-cover object-top w-full h-full self-end' />
+      <Image src="/profile-1.png" alt="profile image" width={600} height={600} className='object-cover object-top w-full h-full self-end' />
         <div className='absolute bottom-0 w-full h-1/2 bg-gradient-to-t from-zinc-900 to-transparent'></div>
       </div>
     </section>
