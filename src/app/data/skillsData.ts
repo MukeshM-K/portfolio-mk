@@ -1,12 +1,10 @@
-import { title } from "process";
-import { FaReact, FaNodeJs, FaHtml5 } from "react-icons/fa";
+
+import { FaReact, FaHtml5 } from "react-icons/fa";
 
 import {
-    SiExpress,
+   
     SiTailwindcss,
     SiJavascript,
-    SiPostgresql,
-    SiMongodb,
     SiVitest,
     SiNextdotjs
     
